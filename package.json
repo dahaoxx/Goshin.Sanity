@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@sanity/desk-tool": "^2.35.7",
+    "react-icons": "^4.8.0"
+  }
+}

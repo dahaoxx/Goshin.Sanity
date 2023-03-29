@@ -1,6 +1,27 @@
 import blockContent from './blockContent'
-import category from './category'
-import post from './post'
-import author from './author'
+import event from "./event";
+import level from "./Admin/level";
+import accessRole from "./Admin/accessRole";
+import video from "./video";
+import _class from "./Class/_class";
+import classInstance from "./Class/classInstance";
+import schedule from "./Class/schedule";
+import product from "./Product/product";
+import semesterFee from "./Product/semesterFee";
+import productCategory from "./Product/productCategory";
+import videoModule from "./videoModule";
 
-export const schemaTypes = [post, author, category, blockContent]
+export const schemaTypes = [
+    event,
+    level,
+    accessRole,
+    video,
+    videoModule,
+    _class,
+    classInstance,
+    schedule,
+    product,
+    productCategory,
+    semesterFee,
+    blockContent
+]
